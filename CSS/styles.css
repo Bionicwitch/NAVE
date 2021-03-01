@@ -1,0 +1,25 @@
+h1{
+    color: rgba(0, 56, 73, 0.856);
+}
+body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+p{
+    width: 600px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.par{
+    background-color: rgb(209, 209, 209);
+}
+.impar{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    text-align: right;
+}
+
