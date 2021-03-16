@@ -35,3 +35,27 @@ for (let i = 0; i < Pessoas.length; i++) {
 
 const [{idade:{a:x,b:z}},{idade:y}] = Pessoas;
 console.log(x,y,z);
+
+//spread operator
+
+console.log(...Pessoas)
+console.log(Pessoas)
+
+//para adicionar uma propriedade ao final de um elemento
+
+const teste={
+    nome:"yuri",
+    idade: 22
+}
+console.log(teste)
+
+const teste2={
+    ...teste,
+    profissao: "estudante"
+}
+
+console.log(teste)
+
+console.log(teste2)
+
+//
