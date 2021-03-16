@@ -21,12 +21,12 @@ const p3 =()=>{
         }, 2000);
     })
 }
-/*
+
 Promise.all([p1(), p2(), p3()]).then(()=>{
     console.log("todas as promisses deram certo")
 }).catch(()=>{
     console.log("alguma promise deu erro")
-})*/
+})
 
 /*
 p1().then(()=>{
@@ -40,8 +40,9 @@ p1().then(()=>{
         })
     })
 })*/
+/*
 Promise.race([p1(), p2(), p3()]).then(res=>{
     console.log("sucesso", res)
 }).catch(err=>{
     console.log("alguma promise deu erro", err)
-})
+})*/

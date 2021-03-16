@@ -15,7 +15,6 @@ const p2 =()=>{
 }
 
 async function func() {
-    //const res = await p1();
     try {
         const res = await Promise.all([p1(),p2()]);
         console.log(res);
