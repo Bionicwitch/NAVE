@@ -1,0 +1,16 @@
+{
+  "name": "project-package-manager",
+  "version": "1.0.0",
+  "description": "Estudo de gerenciamento de pacotes",
+  "main": "index.js",
+  "author": "Yuri Rosa",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.19.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
