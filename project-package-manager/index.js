@@ -1,7 +1,5 @@
-import {subDays} from 'date-fns';
-import { myName, xis } from './module.js';
+import { formatDate } from "./formatters.js";
 
-const newDate  = subDays(new Date(), 3);
-console.log(newDate);
-xis(myName+"!");
-console.log(myName);
+console.log(formatDate(new Date()));
+
+//console.log(formatDate(15072020));
